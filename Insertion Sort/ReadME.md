@@ -26,24 +26,40 @@
 # Sample Output
 
 Enter total number of elements
+
 10
+
 Start entering the numbers
+
 5 3 1 4 8 22 2 50 98  -100
+
 The elements are
+
 5 3 1 4 8 22 2 50 98 -100
 
+
 Iteration 1 :-         3 5 1 4 8 22 2 50 98 -100
+
 Iteration 2 :-         1 3 5 4 8 22 2 50 98 -100
+
 Iteration 3 :-         1 3 4 5 8 22 2 50 98 -100
+
 Iteration 4 :-         1 3 4 5 8 22 2 50 98 -100
+
 Iteration 5 :-         1 3 4 5 8 22 2 50 98 -100
+
 Iteration 6 :-         1 2 3 4 5 8 22 50 98 -100
+
 Iteration 7 :-         1 2 3 4 5 8 22 50 98 -100
+
 Iteration 8 :-         1 2 3 4 5 8 22 50 98 -100
+
 Iteration 9 :-        -100 1 2 3 4 5 8 22 50 98
 
 
+
 AFter sorting the elements are as follows:-
+
 -100 1 2 3 4 5 8 22 50 98
 
 
