@@ -1,0 +1,12 @@
+numbers = [22, 424 , 52, 43] 
+numbers.sort()  
+print(numbers) 
+  
+
+decimalnumber = [7.91, 9.23, 1.27, 3.48, 3.68] 
+decimalnumber.sort() 
+print(decimalnumber) 
+
+words = ["How", "To", "Sort", "in", "python"] 
+words.sort() 
+print(words)
