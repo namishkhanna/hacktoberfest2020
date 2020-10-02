@@ -1,0 +1,13 @@
+E:\Aquib\MCA\C#\Geeting Input from User\bin\Debug\netcoreapp3.1\Geeting Input from User.exe
+E:\Aquib\MCA\C#\Geeting Input from User\bin\Debug\netcoreapp3.1\Geeting Input from User.deps.json
+E:\Aquib\MCA\C#\Geeting Input from User\bin\Debug\netcoreapp3.1\Geeting Input from User.runtimeconfig.json
+E:\Aquib\MCA\C#\Geeting Input from User\bin\Debug\netcoreapp3.1\Geeting Input from User.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\Geeting Input from User\bin\Debug\netcoreapp3.1\Geeting Input from User.dll
+E:\Aquib\MCA\C#\Geeting Input from User\bin\Debug\netcoreapp3.1\Geeting Input from User.pdb
+E:\Aquib\MCA\C#\Geeting Input from User\obj\Debug\netcoreapp3.1\Geeting Input from User.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\Geeting Input from User\obj\Debug\netcoreapp3.1\Geeting Input from User.AssemblyInfo.cs
+E:\Aquib\MCA\C#\Geeting Input from User\obj\Debug\netcoreapp3.1\Geeting Input from User.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\Geeting Input from User\obj\Debug\netcoreapp3.1\Geeting Input from User.dll
+E:\Aquib\MCA\C#\Geeting Input from User\obj\Debug\netcoreapp3.1\Geeting Input from User.pdb
+E:\Aquib\MCA\C#\Geeting Input from User\obj\Debug\netcoreapp3.1\Geeting Input from User.genruntimeconfig.cache
+E:\Aquib\MCA\C#\Geeting Input from User\obj\Debug\netcoreapp3.1\Geeting Input from User.csprojAssemblyReference.cache

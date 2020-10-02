@@ -1,0 +1,12 @@
+E:\Aquib\MCA\C#\Static_method_n_staticClass\bin\Debug\netcoreapp3.1\Static_method_n_staticClass.exe
+E:\Aquib\MCA\C#\Static_method_n_staticClass\bin\Debug\netcoreapp3.1\Static_method_n_staticClass.deps.json
+E:\Aquib\MCA\C#\Static_method_n_staticClass\bin\Debug\netcoreapp3.1\Static_method_n_staticClass.runtimeconfig.json
+E:\Aquib\MCA\C#\Static_method_n_staticClass\bin\Debug\netcoreapp3.1\Static_method_n_staticClass.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\Static_method_n_staticClass\bin\Debug\netcoreapp3.1\Static_method_n_staticClass.dll
+E:\Aquib\MCA\C#\Static_method_n_staticClass\bin\Debug\netcoreapp3.1\Static_method_n_staticClass.pdb
+E:\Aquib\MCA\C#\Static_method_n_staticClass\obj\Debug\netcoreapp3.1\Static_method_n_staticClass.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\Static_method_n_staticClass\obj\Debug\netcoreapp3.1\Static_method_n_staticClass.AssemblyInfo.cs
+E:\Aquib\MCA\C#\Static_method_n_staticClass\obj\Debug\netcoreapp3.1\Static_method_n_staticClass.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\Static_method_n_staticClass\obj\Debug\netcoreapp3.1\Static_method_n_staticClass.dll
+E:\Aquib\MCA\C#\Static_method_n_staticClass\obj\Debug\netcoreapp3.1\Static_method_n_staticClass.pdb
+E:\Aquib\MCA\C#\Static_method_n_staticClass\obj\Debug\netcoreapp3.1\Static_method_n_staticClass.genruntimeconfig.cache

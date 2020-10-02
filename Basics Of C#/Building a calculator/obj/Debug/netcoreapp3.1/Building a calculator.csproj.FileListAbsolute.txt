@@ -1,0 +1,13 @@
+E:\Aquib\MCA\C#\Building a calculator\bin\Debug\netcoreapp3.1\Building a calculator.exe
+E:\Aquib\MCA\C#\Building a calculator\bin\Debug\netcoreapp3.1\Building a calculator.deps.json
+E:\Aquib\MCA\C#\Building a calculator\bin\Debug\netcoreapp3.1\Building a calculator.runtimeconfig.json
+E:\Aquib\MCA\C#\Building a calculator\bin\Debug\netcoreapp3.1\Building a calculator.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\Building a calculator\bin\Debug\netcoreapp3.1\Building a calculator.dll
+E:\Aquib\MCA\C#\Building a calculator\bin\Debug\netcoreapp3.1\Building a calculator.pdb
+E:\Aquib\MCA\C#\Building a calculator\obj\Debug\netcoreapp3.1\Building a calculator.csprojAssemblyReference.cache
+E:\Aquib\MCA\C#\Building a calculator\obj\Debug\netcoreapp3.1\Building a calculator.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\Building a calculator\obj\Debug\netcoreapp3.1\Building a calculator.AssemblyInfo.cs
+E:\Aquib\MCA\C#\Building a calculator\obj\Debug\netcoreapp3.1\Building a calculator.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\Building a calculator\obj\Debug\netcoreapp3.1\Building a calculator.dll
+E:\Aquib\MCA\C#\Building a calculator\obj\Debug\netcoreapp3.1\Building a calculator.pdb
+E:\Aquib\MCA\C#\Building a calculator\obj\Debug\netcoreapp3.1\Building a calculator.genruntimeconfig.cache

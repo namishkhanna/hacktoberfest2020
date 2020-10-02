@@ -1,0 +1,13 @@
+E:\Aquib\MCA\C#\Variables\bin\Debug\netcoreapp3.1\Variables.exe
+E:\Aquib\MCA\C#\Variables\bin\Debug\netcoreapp3.1\Variables.deps.json
+E:\Aquib\MCA\C#\Variables\bin\Debug\netcoreapp3.1\Variables.runtimeconfig.json
+E:\Aquib\MCA\C#\Variables\bin\Debug\netcoreapp3.1\Variables.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\Variables\bin\Debug\netcoreapp3.1\Variables.dll
+E:\Aquib\MCA\C#\Variables\bin\Debug\netcoreapp3.1\Variables.pdb
+E:\Aquib\MCA\C#\Variables\obj\Debug\netcoreapp3.1\Variables.csprojAssemblyReference.cache
+E:\Aquib\MCA\C#\Variables\obj\Debug\netcoreapp3.1\Variables.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\Variables\obj\Debug\netcoreapp3.1\Variables.AssemblyInfo.cs
+E:\Aquib\MCA\C#\Variables\obj\Debug\netcoreapp3.1\Variables.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\Variables\obj\Debug\netcoreapp3.1\Variables.dll
+E:\Aquib\MCA\C#\Variables\obj\Debug\netcoreapp3.1\Variables.pdb
+E:\Aquib\MCA\C#\Variables\obj\Debug\netcoreapp3.1\Variables.genruntimeconfig.cache

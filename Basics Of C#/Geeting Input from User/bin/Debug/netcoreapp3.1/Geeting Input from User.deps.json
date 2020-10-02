@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Geeting Input from User/1.0.0": {
+        "runtime": {
+          "Geeting Input from User.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Geeting Input from User/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

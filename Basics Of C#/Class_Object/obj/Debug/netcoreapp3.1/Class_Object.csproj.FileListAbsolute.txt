@@ -1,0 +1,12 @@
+E:\Aquib\MCA\C#\Class_Object\bin\Debug\netcoreapp3.1\Class_Object.exe
+E:\Aquib\MCA\C#\Class_Object\bin\Debug\netcoreapp3.1\Class_Object.deps.json
+E:\Aquib\MCA\C#\Class_Object\bin\Debug\netcoreapp3.1\Class_Object.runtimeconfig.json
+E:\Aquib\MCA\C#\Class_Object\bin\Debug\netcoreapp3.1\Class_Object.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\Class_Object\bin\Debug\netcoreapp3.1\Class_Object.dll
+E:\Aquib\MCA\C#\Class_Object\bin\Debug\netcoreapp3.1\Class_Object.pdb
+E:\Aquib\MCA\C#\Class_Object\obj\Debug\netcoreapp3.1\Class_Object.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\Class_Object\obj\Debug\netcoreapp3.1\Class_Object.AssemblyInfo.cs
+E:\Aquib\MCA\C#\Class_Object\obj\Debug\netcoreapp3.1\Class_Object.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\Class_Object\obj\Debug\netcoreapp3.1\Class_Object.dll
+E:\Aquib\MCA\C#\Class_Object\obj\Debug\netcoreapp3.1\Class_Object.pdb
+E:\Aquib\MCA\C#\Class_Object\obj\Debug\netcoreapp3.1\Class_Object.genruntimeconfig.cache
