@@ -3,6 +3,9 @@
 // s string
 // p pattern
 
+#include<bits/stdc++.h>
+using namespace std;
+
 vector <int> kmp(string s, string p)
 {
 	vector <int> index;
@@ -39,4 +42,17 @@ vector <int> kmp(string s, string p)
 		}
 	}
 	return index;
+}
+
+int main()
+{
+	string s, p;
+	cout << "enter string : ";
+	cin >> s;
+	cout << "enter pattern : ";
+	cin >> p;
+	vector <int> v;
+	v = kmp(s,p);
+	for (int i=0; i<v.size(); i++)
+		cout << v[i] << endl;
 }
