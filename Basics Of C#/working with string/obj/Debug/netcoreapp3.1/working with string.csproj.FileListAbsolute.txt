@@ -1,0 +1,13 @@
+E:\Aquib\MCA\C#\working with string\bin\Debug\netcoreapp3.1\working with string.exe
+E:\Aquib\MCA\C#\working with string\bin\Debug\netcoreapp3.1\working with string.deps.json
+E:\Aquib\MCA\C#\working with string\bin\Debug\netcoreapp3.1\working with string.runtimeconfig.json
+E:\Aquib\MCA\C#\working with string\bin\Debug\netcoreapp3.1\working with string.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\working with string\bin\Debug\netcoreapp3.1\working with string.dll
+E:\Aquib\MCA\C#\working with string\bin\Debug\netcoreapp3.1\working with string.pdb
+E:\Aquib\MCA\C#\working with string\obj\Debug\netcoreapp3.1\working with string.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\working with string\obj\Debug\netcoreapp3.1\working with string.AssemblyInfo.cs
+E:\Aquib\MCA\C#\working with string\obj\Debug\netcoreapp3.1\working with string.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\working with string\obj\Debug\netcoreapp3.1\working with string.dll
+E:\Aquib\MCA\C#\working with string\obj\Debug\netcoreapp3.1\working with string.pdb
+E:\Aquib\MCA\C#\working with string\obj\Debug\netcoreapp3.1\working with string.genruntimeconfig.cache
+E:\Aquib\MCA\C#\working with string\obj\Debug\netcoreapp3.1\working with string.csprojAssemblyReference.cache

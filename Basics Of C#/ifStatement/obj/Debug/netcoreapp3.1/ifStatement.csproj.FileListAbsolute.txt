@@ -1,0 +1,12 @@
+E:\Aquib\MCA\C#\ifStatement\bin\Debug\netcoreapp3.1\ifStatement.exe
+E:\Aquib\MCA\C#\ifStatement\bin\Debug\netcoreapp3.1\ifStatement.deps.json
+E:\Aquib\MCA\C#\ifStatement\bin\Debug\netcoreapp3.1\ifStatement.runtimeconfig.json
+E:\Aquib\MCA\C#\ifStatement\bin\Debug\netcoreapp3.1\ifStatement.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\ifStatement\bin\Debug\netcoreapp3.1\ifStatement.dll
+E:\Aquib\MCA\C#\ifStatement\bin\Debug\netcoreapp3.1\ifStatement.pdb
+E:\Aquib\MCA\C#\ifStatement\obj\Debug\netcoreapp3.1\ifStatement.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\ifStatement\obj\Debug\netcoreapp3.1\ifStatement.AssemblyInfo.cs
+E:\Aquib\MCA\C#\ifStatement\obj\Debug\netcoreapp3.1\ifStatement.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\ifStatement\obj\Debug\netcoreapp3.1\ifStatement.dll
+E:\Aquib\MCA\C#\ifStatement\obj\Debug\netcoreapp3.1\ifStatement.pdb
+E:\Aquib\MCA\C#\ifStatement\obj\Debug\netcoreapp3.1\ifStatement.genruntimeconfig.cache

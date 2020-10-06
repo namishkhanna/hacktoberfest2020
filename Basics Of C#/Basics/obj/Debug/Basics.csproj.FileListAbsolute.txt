@@ -1,0 +1,7 @@
+E:\Aquib\MCA\C#\Basics\bin\Debug\Basics.exe.config
+E:\Aquib\MCA\C#\Basics\bin\Debug\Basics.exe
+E:\Aquib\MCA\C#\Basics\bin\Debug\Basics.pdb
+E:\Aquib\MCA\C#\Basics\obj\Debug\Basics.csprojAssemblyReference.cache
+E:\Aquib\MCA\C#\Basics\obj\Debug\Basics.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\Basics\obj\Debug\Basics.exe
+E:\Aquib\MCA\C#\Basics\obj\Debug\Basics.pdb
