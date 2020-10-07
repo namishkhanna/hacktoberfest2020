@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void set_demo()
+{
+    set<int> S={5,1,7,3,2,9};
+
+    S.insert(6);
+    S.insert(12);
+    S.insert({3,8,2,1});   // insert multiple values
+    for(int x:S)
+    {
+        cout<<x<<" ";
+    }
+    cout<<endl;
+    // reomove the given element from set
+    S.erase(5);
+    cout<<"After removing 5 from set : "
+    for(int x:S)
+    {
+        cout<<x<<" ";
+    }
+    cout<<endl;
+    auto it1=S.lower_bound(4); // greater than or equal to
+    auto it2=S.upper_bound(4); // stricly greater than
+
+    cout<<*it1<<" "<<*it2<<endl;
+  
+      
+}
+int main()
+{
+  set_demo();
+  return 0;
+}
