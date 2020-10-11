@@ -1,0 +1,12 @@
+E:\Aquib\MCA\C#\switchStatement\bin\Debug\netcoreapp3.1\switchStatement.exe
+E:\Aquib\MCA\C#\switchStatement\bin\Debug\netcoreapp3.1\switchStatement.deps.json
+E:\Aquib\MCA\C#\switchStatement\bin\Debug\netcoreapp3.1\switchStatement.runtimeconfig.json
+E:\Aquib\MCA\C#\switchStatement\bin\Debug\netcoreapp3.1\switchStatement.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\switchStatement\bin\Debug\netcoreapp3.1\switchStatement.dll
+E:\Aquib\MCA\C#\switchStatement\bin\Debug\netcoreapp3.1\switchStatement.pdb
+E:\Aquib\MCA\C#\switchStatement\obj\Debug\netcoreapp3.1\switchStatement.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\switchStatement\obj\Debug\netcoreapp3.1\switchStatement.AssemblyInfo.cs
+E:\Aquib\MCA\C#\switchStatement\obj\Debug\netcoreapp3.1\switchStatement.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\switchStatement\obj\Debug\netcoreapp3.1\switchStatement.dll
+E:\Aquib\MCA\C#\switchStatement\obj\Debug\netcoreapp3.1\switchStatement.pdb
+E:\Aquib\MCA\C#\switchStatement\obj\Debug\netcoreapp3.1\switchStatement.genruntimeconfig.cache

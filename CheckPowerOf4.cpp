@@ -53,4 +53,27 @@ int main() {
 }
 
 
+bool isPowerOf4(int n){
+    
+    bool ans=!(n&(n-1)) && (n & 0x5555555);
+    return ans;
+    
+}
 
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+
+	cin >> n;
+	
+    if(isPowerOf4(n)) {
+        cout << "true" << endl;
+    }
+    else {
+        cout << "false" << endl;
+    }
+		
+	return 0;
+}

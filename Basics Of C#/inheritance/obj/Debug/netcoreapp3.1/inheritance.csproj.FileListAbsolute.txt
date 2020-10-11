@@ -1,0 +1,12 @@
+E:\Aquib\MCA\C#\inheritance\bin\Debug\netcoreapp3.1\inheritance.exe
+E:\Aquib\MCA\C#\inheritance\bin\Debug\netcoreapp3.1\inheritance.deps.json
+E:\Aquib\MCA\C#\inheritance\bin\Debug\netcoreapp3.1\inheritance.runtimeconfig.json
+E:\Aquib\MCA\C#\inheritance\bin\Debug\netcoreapp3.1\inheritance.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\inheritance\bin\Debug\netcoreapp3.1\inheritance.dll
+E:\Aquib\MCA\C#\inheritance\bin\Debug\netcoreapp3.1\inheritance.pdb
+E:\Aquib\MCA\C#\inheritance\obj\Debug\netcoreapp3.1\inheritance.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\inheritance\obj\Debug\netcoreapp3.1\inheritance.AssemblyInfo.cs
+E:\Aquib\MCA\C#\inheritance\obj\Debug\netcoreapp3.1\inheritance.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\inheritance\obj\Debug\netcoreapp3.1\inheritance.dll
+E:\Aquib\MCA\C#\inheritance\obj\Debug\netcoreapp3.1\inheritance.pdb
+E:\Aquib\MCA\C#\inheritance\obj\Debug\netcoreapp3.1\inheritance.genruntimeconfig.cache

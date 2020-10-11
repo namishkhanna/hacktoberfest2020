@@ -1,0 +1,12 @@
+E:\Aquib\MCA\C#\ExceptionHandling\bin\Debug\netcoreapp3.1\ExceptionHandling.exe
+E:\Aquib\MCA\C#\ExceptionHandling\bin\Debug\netcoreapp3.1\ExceptionHandling.deps.json
+E:\Aquib\MCA\C#\ExceptionHandling\bin\Debug\netcoreapp3.1\ExceptionHandling.runtimeconfig.json
+E:\Aquib\MCA\C#\ExceptionHandling\bin\Debug\netcoreapp3.1\ExceptionHandling.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\ExceptionHandling\bin\Debug\netcoreapp3.1\ExceptionHandling.dll
+E:\Aquib\MCA\C#\ExceptionHandling\bin\Debug\netcoreapp3.1\ExceptionHandling.pdb
+E:\Aquib\MCA\C#\ExceptionHandling\obj\Debug\netcoreapp3.1\ExceptionHandling.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\ExceptionHandling\obj\Debug\netcoreapp3.1\ExceptionHandling.AssemblyInfo.cs
+E:\Aquib\MCA\C#\ExceptionHandling\obj\Debug\netcoreapp3.1\ExceptionHandling.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\ExceptionHandling\obj\Debug\netcoreapp3.1\ExceptionHandling.dll
+E:\Aquib\MCA\C#\ExceptionHandling\obj\Debug\netcoreapp3.1\ExceptionHandling.pdb
+E:\Aquib\MCA\C#\ExceptionHandling\obj\Debug\netcoreapp3.1\ExceptionHandling.genruntimeconfig.cache

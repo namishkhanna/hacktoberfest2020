@@ -1,0 +1,12 @@
+E:\Aquib\MCA\C#\Arrays\bin\Debug\netcoreapp3.1\Arrays.exe
+E:\Aquib\MCA\C#\Arrays\bin\Debug\netcoreapp3.1\Arrays.deps.json
+E:\Aquib\MCA\C#\Arrays\bin\Debug\netcoreapp3.1\Arrays.runtimeconfig.json
+E:\Aquib\MCA\C#\Arrays\bin\Debug\netcoreapp3.1\Arrays.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\Arrays\bin\Debug\netcoreapp3.1\Arrays.dll
+E:\Aquib\MCA\C#\Arrays\bin\Debug\netcoreapp3.1\Arrays.pdb
+E:\Aquib\MCA\C#\Arrays\obj\Debug\netcoreapp3.1\Arrays.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\Arrays\obj\Debug\netcoreapp3.1\Arrays.AssemblyInfo.cs
+E:\Aquib\MCA\C#\Arrays\obj\Debug\netcoreapp3.1\Arrays.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\Arrays\obj\Debug\netcoreapp3.1\Arrays.dll
+E:\Aquib\MCA\C#\Arrays\obj\Debug\netcoreapp3.1\Arrays.pdb
+E:\Aquib\MCA\C#\Arrays\obj\Debug\netcoreapp3.1\Arrays.genruntimeconfig.cache

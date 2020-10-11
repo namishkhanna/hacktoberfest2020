@@ -1,0 +1,13 @@
+E:\Aquib\MCA\C#\Methods\bin\Debug\netcoreapp3.1\Methods.exe
+E:\Aquib\MCA\C#\Methods\bin\Debug\netcoreapp3.1\Methods.deps.json
+E:\Aquib\MCA\C#\Methods\bin\Debug\netcoreapp3.1\Methods.runtimeconfig.json
+E:\Aquib\MCA\C#\Methods\bin\Debug\netcoreapp3.1\Methods.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\Methods\bin\Debug\netcoreapp3.1\Methods.dll
+E:\Aquib\MCA\C#\Methods\bin\Debug\netcoreapp3.1\Methods.pdb
+E:\Aquib\MCA\C#\Methods\obj\Debug\netcoreapp3.1\Methods.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\Methods\obj\Debug\netcoreapp3.1\Methods.AssemblyInfo.cs
+E:\Aquib\MCA\C#\Methods\obj\Debug\netcoreapp3.1\Methods.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\Methods\obj\Debug\netcoreapp3.1\Methods.dll
+E:\Aquib\MCA\C#\Methods\obj\Debug\netcoreapp3.1\Methods.pdb
+E:\Aquib\MCA\C#\Methods\obj\Debug\netcoreapp3.1\Methods.genruntimeconfig.cache
+E:\Aquib\MCA\C#\Methods\obj\Debug\netcoreapp3.1\Methods.csprojAssemblyReference.cache

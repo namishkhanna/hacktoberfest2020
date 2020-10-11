@@ -1,0 +1,13 @@
+E:\Aquib\MCA\C#\loops\bin\Debug\netcoreapp3.1\loops.exe
+E:\Aquib\MCA\C#\loops\bin\Debug\netcoreapp3.1\loops.deps.json
+E:\Aquib\MCA\C#\loops\bin\Debug\netcoreapp3.1\loops.runtimeconfig.json
+E:\Aquib\MCA\C#\loops\bin\Debug\netcoreapp3.1\loops.runtimeconfig.dev.json
+E:\Aquib\MCA\C#\loops\bin\Debug\netcoreapp3.1\loops.dll
+E:\Aquib\MCA\C#\loops\bin\Debug\netcoreapp3.1\loops.pdb
+E:\Aquib\MCA\C#\loops\obj\Debug\netcoreapp3.1\loops.AssemblyInfoInputs.cache
+E:\Aquib\MCA\C#\loops\obj\Debug\netcoreapp3.1\loops.AssemblyInfo.cs
+E:\Aquib\MCA\C#\loops\obj\Debug\netcoreapp3.1\loops.csproj.CoreCompileInputs.cache
+E:\Aquib\MCA\C#\loops\obj\Debug\netcoreapp3.1\loops.dll
+E:\Aquib\MCA\C#\loops\obj\Debug\netcoreapp3.1\loops.pdb
+E:\Aquib\MCA\C#\loops\obj\Debug\netcoreapp3.1\loops.genruntimeconfig.cache
+E:\Aquib\MCA\C#\loops\obj\Debug\netcoreapp3.1\loops.csprojAssemblyReference.cache
