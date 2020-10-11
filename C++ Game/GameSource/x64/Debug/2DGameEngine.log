@@ -1,0 +1,185 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Bullet.cpp
+  CreateBackground.cpp
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(27,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(27,64): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(27,64): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(27,64): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(27,64): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(27,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(27,49): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(27,49): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(27,49): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(27,49): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(28,78): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(28,78): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(28,78): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(28,78): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(28,78): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(28,63): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(28,63): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(28,63): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(28,63): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(28,63): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(29,92): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(29,92): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(29,92): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(29,92): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(29,92): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(29,63): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(29,63): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(29,63): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(29,63): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(29,63): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(30,80): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(30,80): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(30,80): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(30,80): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(30,80): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(30,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(30,50): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(30,50): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(30,50): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(30,50): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(49,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(49,54): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(49,54): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(49,54): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(49,54): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(50,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(50,62): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(50,62): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(50,62): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(50,62): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(51,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(51,70): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(51,70): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(51,70): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(51,70): warning C4244:         ]
+  CreateHorde.cpp
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(52,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(52,62): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(52,62): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(52,62): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateBackground.cpp(52,62): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateHorde.cpp(24,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateHorde.cpp(25,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateHorde.cpp(30,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateHorde.cpp(31,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateHorde.cpp(36,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateHorde.cpp(37,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateHorde.cpp(42,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Game.cpp
+  GameObject.cpp
+  LivingDead.cpp
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\CreateHorde.cpp(43,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\LivingDead.cpp(46,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Main.cpp
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\LivingDead.cpp(127,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(10,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(10,44): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(10,44): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(10,44): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(10,44): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(11,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(11,44): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(11,44): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(11,44): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(11,44): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(12,36): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(12,36): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(12,36): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(12,36): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(12,36): warning C4244:         ]
+  Pickup.cpp
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(12,22): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(12,22): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(12,22): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(12,22): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Main.cpp(12,22): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Pickup.cpp(30,20): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Pickup.cpp(31,20): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Pickup.cpp(59,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Pickup.cpp(59,23): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Pickup.cpp(117,39): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Player.cpp
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Pickup.cpp(121,37): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(7,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(8,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(23,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(24,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(30,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(30,29): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(30,29): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(30,29): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(30,29): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(31,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(31,30): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(31,30): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(31,30): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(31,30): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(165,32): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(165,32): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(165,32): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(165,32): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(165,32): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(170,31): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(170,31): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(170,31): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(170,31): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(170,31): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(175,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(175,33): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(175,33): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(175,33): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(175,33): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(180,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(180,30): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(180,30): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(180,30): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(180,30): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(183,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(193,31): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  Scene.cpp
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Player.cpp(199,36): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Scene.cpp(38,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  SceneLivingDeadArena.cpp
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\Scene.cpp(39,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(5,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(5,38): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(5,38): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(5,38): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(5,38): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(5,31): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(5,31): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(5,31): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(5,31): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(5,31): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(6,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(6,37): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(6,37): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(6,37): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(6,37): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(6,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(6,30): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(6,30): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(6,30): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(6,30): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(7,20): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(7,20): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(7,20): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(7,20): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(7,20): warning C4244:         ]
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(7,13): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(7,13): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(7,13): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(7,13): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(7,13): warning C4244:         ]
+  TextureHolder.cpp
+  Generating Code...
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(537,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(537,49): warning C4244:         with
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(537,49): warning C4244:         [
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(537,49): warning C4244:             T=float
+C:\Users\brian\OneDrive - Singapore Polytechnic\AY1920 S1\ST0299  GAME PROGRAMMING USING C++\p1828711_Tham Kai Heng_ GPRG_CA2\GameSource\SceneLivingDeadArena.cpp(537,49): warning C4244:         ]
+sfml-graphics-s-d.lib(Color.cpp.obj) : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'
