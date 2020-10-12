@@ -1,12 +1,21 @@
-def bubble_sort(list1):    
-    for i in range(0,len(list1)-1):  
-        for j in range(len(list1)-1):  
-            if(list1[j]>list1[j+1]):  
-                temp = list1[j]  
-                list1[j] = list1[j+1]  
-                list1[j+1] = temp  
-    return list1  
-  
-list1 = [324, 454, 56, 45, 98, 23]  
-print("The unsorted list is: ", list1)  
-print("The sorted list is: ", bubble_sort(list1)) 
+
+#Python Implementation of bubble Sort Algorithm
+
+#ascending Order Sort
+def bubble(data):
+	n=len(data)
+	for i in range(n-1):
+		for j in range(i+1,n):
+			if data[i]>data[j]:
+				temp=data[j]
+				data[j]=data[i]
+				data[i]=temp
+
+temperature = input('Enter the list of numbers: ').split()
+temperature = [int(x) for x in alist]
+print("Data Before Sort")
+print(temperature)
+
+bubble(temperature)
+print("Data After Sort")
+print(temperature)
