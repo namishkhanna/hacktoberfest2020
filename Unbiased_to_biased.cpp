@@ -20,8 +20,6 @@ The probability that it comes up heads first and tails second is p(1-p)
 The probability that it comes up tails first ands heads second is (1-p)p
 The probability that it comes up tails twice is (1-p)2
 
-This is a classic probability puzzle and to the best of my knowledge you can't do this with just two calls to the function. However, you can do this with a low expected number of calls to the function.
-
 The observation is that if you have a biased coin that comes up heads with probability p, and if you flip the coin twice, then:
 
 The probability that it comes up heads twice is p2
