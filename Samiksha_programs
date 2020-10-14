@@ -1,0 +1,94 @@
+Find the repeating no
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,arr[n];
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+   
+    for(int i=0;i<n;i++)
+    {
+
+        if(arr[abs(arr[i])-1] >0)
+        {
+            arr[abs(arr[i])-1] = -(arr[abs(arr[i])-1]);
+            
+        }
+        else
+        {
+            cout<< abs(arr[i]);
+            break;
+        }
+    
+        
+    }
+}
+
+Positive AND 
+
+#include<iostream>
+#include <vector> 
+#include<bits/stdc++.h>
+#define ll long long int 
+using namespace std;
+int main()
+{
+    ll t,n;
+    cin>>t;
+    while(t--)
+    {
+        cin>>n;
+        if(n==1)
+        {
+            cout<<1<<"\n";
+        }
+        else if(ceil(log2(n))==floor(log2(n)))
+        {
+            cout<<-1<<"\n";
+        }
+        
+        else if(n==3)
+        {
+            cout<<"2 3 1"<<"\n";
+        }
+        else if(n==5)
+        {
+            cout<<"2 3 1 5 4"<<"\n";
+        }
+        else
+        {
+            vector<int>v={2,3,1,5,4};
+            ll i=6;
+            while(i<=n)
+            {
+                if(ceil(log2(i))==floor(log2(i)))
+                {
+                    v.push_back(i+1);
+                   
+                    v.push_back(i);
+                   
+                    i+=2;
+                
+                }
+                else
+                {
+                    v.push_back(i);
+                    i+=1;
+                }
+                
+            }
+            for(int j=0;j<n;j++)
+            {
+                cout<<v[j]<<" ";
+            }
+            cout<<"\n";
+        }
+        
+        
+    }
+}
