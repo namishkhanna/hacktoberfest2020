@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t,n,m;
+	cout<<"Enter the no. of test cases"<<endl;
+	cin>>t;
+	while(t--)
+	{
+	     cout<<"Enter the jobs to be completed and jobs already completed"<<endl;
+	    cin>>n>>m;
+	    int a[m];
+	    int flag=0,c[n]= {0},s[n]={0};
+	    cout<<"Enter the indices of jobs already done"<<endl;
+	    for(int i=0;i<m;i++)
+	    {
+	        cin>>a[i];
+	    }
+	    sort(a,a+m);
+	    cout<<"Sorted array..."<<endl;
+	    cout<<a[0]<<a[1]<<a[2];
+	    for(int i=1;i<=n;i++)
+	    {
+	        if(a[i+1]!=i && flag==0)
+	        {
+	            c[i]=i;
+	            cout<<i<<endl;
+	            flag=1;
+	        }
+	        if(a[i+1]!=i && flag==1)
+	        {
+	            s[i]=i;
+	            cout<<i;
+	            flag=0;
+	        }
+	    }
+	    cout<<endl<<"_________________________________";
+        for(int i=0;c[i]!=0;i++)
+           {cout<<c[i];}
+        cout<<endl;
+        for(int i=0;s[i]!=0;i++)
+            {
+                cout<<s[i];}
+        cout<<endl;
+        cout<<"__________________________________";
+	}
+	return 0;
+}
