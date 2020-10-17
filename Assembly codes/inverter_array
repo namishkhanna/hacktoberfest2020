@@ -1,0 +1,67 @@
+.data 
+	array: .word 1 2 3 4 5 6 7 8 9 10
+	size: .word 10			#numero de palavras do array
+	halfsize: .word 5   		#se for numero impar pegue somente o valor antes da virgula
+	orig: .asciiz "O array original é: "
+	inv: .asciiz "  O array invertido é: "
+	#mudar na linha 11 o valor do ultimo dado de $s0(numero antes de $s0) para se referir corretamente a última palavra do array
+
+.text 
+	la $s0, array                     #Carregando endereços e valores
+	la $s1,36($s0)
+	add $t0, $zero, $zero
+	lw $t1, size
+	lw $t2, halfsize
+	
+	li $v0,4			#imprimindo o vetor original
+	la $a0,orig
+	syscall
+	
+Print_Original:				
+	li $v0,1
+	lw $a0,($s0)
+	syscall
+	add $s0,$s0,4
+	addi $t0,$t0,1
+	beq $t0,$t1,Corrigir_1
+	j Print_Original
+	
+Corrigir_1:				#voltando alguns registradores para valores padrao do programa
+	la $s0,array
+	add $t0,$zero,$zero
+	
+Loop:	lw $t3,($s0)				#invertendo o array
+	lw $t4,($s1)
+	sw $t3,($s1)
+	sw $t4,($s0)
+	
+	addi $s0,$s0,4
+	addi $s1,$s1,-4
+	
+	addi $t0,$t0,1
+	
+	beq $t0, $t2,Corrigir_2
+	
+	j Loop
+	
+Corrigir_2:	
+	la $s0,array				#voltando alguns registradores para valores padrao do programa
+	add $t0,$zero,$zero
+	
+	li $v0,4				#imprimindo o vetor invertido
+	la $a0,inv
+	syscall
+	
+Printar_invertido:					
+	li $v0,1
+	lw $a0,($s0)
+	syscall
+	
+	addi $s0,$s0,4
+	addi $t0,$t0,1
+	
+	beq $t0,$t1,Sair
+	j Printar_invertido
+	
+Sair:	li $v0,10				#finalizando o programa
+	syscall
