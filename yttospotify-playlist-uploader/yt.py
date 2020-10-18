@@ -26,8 +26,16 @@ class Youtube(object):
 
 
 def get_playlists(self):
-  pass
+  request = self.youtube_client.playlist().list(
+    part = "id, snippet",
+    maxResult = 50,
+    mine = True
+  )
+  fetch_playlist = request.execute()
+  playlists = [playlist for playlist in fetch_playlist['items']]
+  return playlists
   
+
 def get_videos_from_playlist(self, playlist_id):
   pass
 
