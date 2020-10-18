@@ -1,8 +1,10 @@
 # Youtube management class
 import os
-
 import google_auth_oauthlib
 import googleapiclient
+
+from song import Song
+
 
 class Youtube(object):
   def __init_(self, credentials_location):
@@ -31,13 +33,25 @@ def get_playlists(self):
     maxResult = 50,
     mine = True
   )
-  fetch_playlist = request.execute()
-  playlists = [playlist for playlist in fetch_playlist['items']]
+  fetched_playlist = request.execute()
+  playlists = [playlist for playlist in fetched_playlist['items']]
   return playlists
   
 
 def get_videos_from_playlist(self, playlist_id):
-  pass
+  songs = []
+  request = self.youtube_client.playlistItems().list(
+    playlistId = playlist_id,
+    part = "id, snipper"
+  )
+
+  fetched_videos = request.execute()
+
+  for item in fetched_videos['items']:
+    video_id = item['snippet']['resourceId']['videoId']
+    artist, track = self.get_artist_and_track_from_video(video_id)
+    if artist and track:
+      songs.append(Song(artist, track))
 
 def get_artist_and_track_from_video(self, video_id):
   pass
