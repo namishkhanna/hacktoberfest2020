@@ -2,8 +2,10 @@
 import os
 import google_auth_oauthlib
 import googleapiclient
+import youtube_dl
 
 from song import Song
+from playlist import Playlist
 
 
 class Youtube(object):
@@ -34,7 +36,11 @@ def get_playlists(self):
     mine = True
   )
   fetched_playlist = request.execute()
-  playlists = [playlist for playlist in fetched_playlist['items']]
+  playlists = [Playlist(
+    item['id'], 
+    item['snippet']['title']
+    ) for item in fetched_playlist['items']]
+
   return playlists
   
 
@@ -54,4 +60,13 @@ def get_videos_from_playlist(self, playlist_id):
       songs.append(Song(artist, track))
 
 def get_artist_and_track_from_video(self, video_id):
-  pass
+  youtube_url = f"https://www.youtube.com/watch?v={video_id}"
+
+  video = youtube_dl.YoutubeDL({'quiet': True}).extract_info(
+    youtube_url, download=False
+  )
+
+  artist = video['artist']
+  track = video['track']
+
+  return artist, track
