@@ -10,6 +10,9 @@ from playlist import Playlist
 
 class Youtube(object):
   def __init__(self, credentials_location):
+    # youtube_dl default User-Agent can cause some json values to return as None, using Facebook's web crawler solves this.
+    youtube_dl.utils.std_headers['User-Agent'] = "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)"
+
     scopes = ["https://www.googleapis.com/auth/youtube.readonly"]
 
     # Disable OAuthlib's HTTPS verification when running locally.
@@ -30,9 +33,9 @@ class Youtube(object):
 
 
   def get_playlists(self):
-    request = self.youtube_client.playlist().list(
+    request = self.youtube_client.playlists().list(
       part = "id, snippet",
-      maxResult = 50,
+      maxResults = 50,
       mine = True
     )
     fetched_playlist = request.execute()
@@ -48,7 +51,7 @@ class Youtube(object):
     songs = []
     request = self.youtube_client.playlistItems().list(
       playlistId = playlist_id,
-      part = "id, snipper"
+      part = "id, snippet"
     )
 
     fetched_videos = request.execute()
@@ -58,6 +61,8 @@ class Youtube(object):
       artist, track = self.get_artist_and_track_from_video(video_id)
       if artist and track:
         songs.append(Song(artist, track))
+      
+    return songs
 
   def get_artist_and_track_from_video(self, video_id):
     youtube_url = f"https://www.youtube.com/watch?v={video_id}"

@@ -17,7 +17,7 @@ def run():
   for index, playlist in enumerate(playlists):
     print(f"{index}: {playlist.title}")
   choice = int(input("Enter desired playlist number: "))
-  chosen_playlist = playlist[choice]
+  chosen_playlist = playlists[choice]
   print(f"Selected playlist name: {chosen_playlist.title}")
   
   # For each video in the playlist get the song info from yt
