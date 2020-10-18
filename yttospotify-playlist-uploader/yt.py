@@ -51,9 +51,9 @@ class Youtube(object):
     songs = []
     request = self.youtube_client.playlistItems().list(
       playlistId = playlist_id,
-      part = "id, snippet"
+      part = "id, snippet",
+      maxResults=50
     )
-
     fetched_videos = request.execute()
 
     for item in fetched_videos['items']:
@@ -70,7 +70,6 @@ class Youtube(object):
     video = youtube_dl.YoutubeDL({'quiet': True}).extract_info(
       youtube_url, download=False
     )
-
     artist = video['artist']
     track = video['track']
 
