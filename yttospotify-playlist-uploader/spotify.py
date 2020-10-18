@@ -7,9 +7,9 @@ class Spotify(object):
 
   def search_song(self, artist, track):
     query = urllib.parse.quote(f'{artist} {track}')
-    url = f"https://api.spotify.com/v1/search?q={query}&type=track"
+    endpoint = f"https://api.spotify.com/v1/search?q={query}&type=track"
     response = requests.get(
-      url,
+      endpoint,
       headers={
         "Content-Type": "application/json",
         "Authorization": f"Bearer {self.api_token}"
@@ -25,9 +25,9 @@ class Spotify(object):
       raise Exception(f"No song found for {artist} = {track}")
 
   def add_song_to_spotify(self, song_id):
-    url = "Https://api.spotify.com/v1/me/tracks"
+    endpoint = "Https://api.spotify.com/v1/me/tracks"
     response = requests.put(
-      url,
+      endpoint,
       json={
         "ids": [song_id]
       },
