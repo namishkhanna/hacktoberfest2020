@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+   char op;
+   float a,b;
+   cout<<"Enter Operator either + or - or * or / :"<<endl;
+   cin>>op;
+   
+   cout<<"Enter Two operands :"<<endl;
+   cin>>a>>b;
+   
+   switch(op)
+      { 
+         case '+':
+             cout<<a + b;
+             break;
+            
+         case '-':
+             cout<<a - b;
+             break;
+             
+          case '*':
+             cout<<a * b;
+             break;
+             
+          case '/':
+             cout<<a / b;
+             break;
+             
+          default:
+             //If the operator is other than + ,- ,* or / error message is shown
+             cout<<"ERROR ! operator is not correct";
+             break;
+        }
+        return 0;
+   
+  }
