@@ -59,8 +59,7 @@ class Youtube(object):
     for item in fetched_videos['items']:
       video_id = item['snippet']['resourceId']['videoId']
       artist, track = self.get_artist_and_track_from_video(video_id)
-      if artist and track:
-        songs.append(Song(artist, track))
+      songs.append(Song(artist, track))
       
     return songs
 

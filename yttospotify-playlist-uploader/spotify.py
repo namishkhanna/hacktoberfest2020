@@ -22,7 +22,7 @@ class Spotify(object):
       # assuming the first track in the list is the desired one
       return results[0]['id']
     else:
-      raise Exception(f"No song found for {artist} = {track}")
+      raise Exception(f"No song found for {artist}: {track}")
 
   def add_song_to_spotify(self, song_id):
     endpoint = "Https://api.spotify.com/v1/me/tracks"
