@@ -1,0 +1,12 @@
+l = list(map(int, input().split()))
+print('Original List:',l)
+
+countlist = {}
+
+for i in l:
+    if(i in countlist):
+        countlist[i]+=1
+    else:
+        countlist[i]=1
+        
+print(countlist)

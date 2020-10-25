@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+
+class function_overloading{
+  public:
+      int volume(int s)
+      {
+        //int s;
+        //cin>>s;
+        cout<<"Volume of the cube is: "<<s*s*s<<endl;
+      }
+      double volume(int h, double r)
+      {
+          //int h;
+          //double r;
+          cin>>r;
+          cin>>h;
+          cout<<"Volume of the cylinder is : "<<3.14*r*r*h<<endl;
+      }
+      long volume(long l, int b, int h)
+      {
+          //long l;
+          //int b,h;
+          cin>>l;
+          cin>>b>>h;
+          cout<<"Volume of the rectangle is : "<<l*b*h<<endl;
+      }
+};
+int main()
+{
+ function_overloading obj;
+ obj.volume(4);
+ obj.volume(3,8.5);
+ obj.volume(5,2,7);
+  return 0;
+}
