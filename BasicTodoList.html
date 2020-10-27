@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My First Project</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style>	
+		.alert{
+			margin: 10px 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="row" style="margin-top: 20px;">	
+	
+		<div class="col-md-6">
+			<div class="alert alert-danger" id='initial'>
+				<p >Sorry No Tasks Found &#128542 </p>
+			</div>
+			<ol id="list">
+				
+			</ol>
+		</div>
+		<div class="col-md-6">
+			<form>
+				<input type="text" id="task" placeholder="Enter Task">
+
+				<input type="button" value="Add Task" onclick="getValue()">
+			</form>
+			<div class="alert alert-danger" id="DislayWarning" style="display: none;">
+				
+			</div> 
+				<script>
+		function validateForm(x)
+		{
+			var error = document.getElementById("DislayWarning");
+			if(x=="")
+			{
+				error.style.display='block';
+				error.innerHTML="Please Enter a Task";
+				return false;
+			}
+			else{
+				error.style.display='none';
+				return true;
+			}
+		}
+		function deleteMe(i){
+			var t = document.getElementById('task'+i);
+			t.remove();
+			if(document.getElementById('list').childElementCount==0){
+				document.getElementById('initial').style.display='block';
+			}
+		}
+		function getValue(){
+			let style = ["alert alert-primary","alert alert-secondary","alert alert-success","alert alert-danger","alert alert-warning","alert alert-info","alert alert-light","alert alert-dark"]
+			let x = document.getElementById('task').value;
+			document.getElementById('task').value = "";
+			if(validateForm(x)!=false)
+			{
+				if( typeof getValue.counter == 'undefined' ) {
+			       getValue.counter = 0;
+			    }
+			    getValue.counter++;
+			    i = getValue.counter;
+				var li = document.createElement('li');
+				li.setAttribute('id','task'+i);
+				var button = document.createElement('input');
+				button.setAttribute('type','submit');
+				button.setAttribute('value','Delete');
+				button.setAttribute('class','btn btn-danger btn-sm');
+				button.setAttribute('onclick','deleteMe('+i+')');
+				button.style.float='right';
+				li.innerHTML = x;
+				var num = Math.floor(Math.random() * (style.length));
+				console.log(num) ;
+				li.setAttribute("class", style[num]);
+				li.appendChild(button);
+				li.appendChild(button);
+				document.getElementById('list').appendChild(li);
+			}
+			if(document.getElementById('list').childElementCount)
+			{
+				document.getElementById('initial').style.display='none';
+			}
+			else
+			{
+				document.getElementById('initial').style.display='block';
+			}
+		}
+
+	</script>
+	</div>
+	</div>
+</body>
+</html>
