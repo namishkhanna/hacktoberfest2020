@@ -1,0 +1,40 @@
+.data
+	Array: .word 1 2 3 4 5 6 7 8 9 10
+	texto: .asciiz "Diga o numero para procurar: "
+	Naoachou: .asciiz "Não achou!"
+	achou: .asciiz "Achou"
+.text
+	li $t2,10
+	la $s1, Array
+	li $v0, 4
+	la $a0, texto
+	syscall
+	
+	li $v0,5
+	syscall
+	
+	move $t0,$v0
+	
+loop:	lw $t1, ($s1)
+	beq $t0,$t1, SairA
+	beq $t1, $t2, SairB
+	add $s1, $s1, 4
+	j loop
+	
+SairA:	move $v1,$t0
+	
+	li $v0,4
+	la $a0,achou
+	syscall
+	
+	li $v0,10
+	syscall
+
+SairB:	li $v1,-1
+	
+	li $v0,4
+	la $a0,Naoachou
+	syscall
+	
+	li $v0,10
+	syscall

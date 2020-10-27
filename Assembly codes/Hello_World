@@ -1,0 +1,10 @@
+.data 
+	Hello: .asciiz "Hello World!"
+	Felipe: .asciiz "Felipe quer Jogar"
+.text 
+
+	li $v0,4
+	la $a0,Hello
+	syscall
+	la $a0,Felipe
+	syscall

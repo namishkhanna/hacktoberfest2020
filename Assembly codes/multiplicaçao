@@ -1,0 +1,42 @@
+.data
+
+	Numero1: .asciiz "Informe o primeiro número: "
+	Numero2: .asciiz "Informe o segundo numero: "
+	Mult: .asciiz "A Mult é: "
+
+.text
+
+	li $v0,4
+	la $a0,Numero1
+	syscall
+	
+	li $v0,5
+	syscall
+	
+	move $t0,$v0
+	
+	li $v0,4
+	la $a0,Numero2
+	syscall
+	
+	li $v0,5
+	syscall
+	
+	move $t1,$v0
+	
+	mult $t0,$t1
+	
+	# mfhi - numeros altos da multiplicaçao numeros muito grandes
+	# mflo - numeros baixos da multiplicaçao numeros "menores"
+	
+	mflo $s3
+	
+	li $v0,4
+	la $a0,Mult
+	syscall
+	
+	li $v0,1
+	move $a0,$s3
+	syscall
+	
+	
