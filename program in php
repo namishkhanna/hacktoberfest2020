@@ -1,0 +1,16 @@
+1. Write php script to display following :   1,1,2,3,5,8, up to 15th term.  
+
+ <?php
+  $a=1;
+$b=1;
+echo $a.",".$b;
+$i=1;
+do
+{
+ $c=$a+$b;
+    echo ",".$c;
+    $a=$b;
+    $b=$c;
+  $i++;
+}while($i<=13);
+?>
