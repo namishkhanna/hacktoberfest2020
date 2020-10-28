@@ -1,0 +1,48 @@
+class Vertex:
+    def __init__(self,n):
+        self.name=n
+        self.neighbours=list()
+        
+    def addneighbours(self,v):
+        if v not in self.neighbours:
+            self.neighbours.append(v)
+            self.neighbours.sort()
+            
+class Graph:
+    vertices={}
+    
+    def addvertex(self,vertex):
+        if isinstance(vertex, Vertex)and vertex.name not in self.vertices:
+            self.vertices[vertex.name]=vertex
+            return True
+        else:
+            return False
+    
+    def addedge(self,a,b):
+        if a in self.vertices and b in self.vertices:
+            for key, value in self.vertices.items():
+                if key==a:
+                    value.addneighbours(b)
+                if key==b:
+                    value.addneighbours(a)
+            return True
+        else:
+            return False
+        
+    def printGraph(self):
+        for key in sorted(list(self.vertices.keys())):
+            print(key+str(self.vertices[key].neighbours))
+            
+mygraph=Graph()
+a= Vertex("A")
+mygraph.addvertex(a)
+mygraph.addvertex(Vertex('B'))
+for i in range(ord('A'),ord('K')):
+    mygraph.addvertex(Vertex(chr(i)))
+    
+edges=['AB','AE','BF','CG','DE','DH','EH','FG','FI','FJ','GJ','HI']
+for edge in edges:
+    mygraph.addedge(edge[:1],edge[1:])
+    
+mygraph.printGraph()
+    
