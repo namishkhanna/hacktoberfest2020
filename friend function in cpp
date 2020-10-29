@@ -1,0 +1,45 @@
+#include<iostream>
+using namespace std;
+//class Second;
+//class First::Second;
+class First
+{
+	int a;
+	friend class Second;
+	public:
+		void inpA()
+		{
+			cout<<"Enter The Value Of A = "<<endl;
+			cin>>a;
+		}
+		//class Second;
+	    friend sum(First);
+};
+class Second
+{
+	int b,c;
+	public:
+		void inpB()
+		{
+			cout<<"Enter The VAlue Of B = "<<endl;
+			cin>>b;
+		}
+		void show()
+		{
+			cout<<"Sum = "<<c<<endl;
+		}
+		void sum(First f1)
+		{
+			c=f1.a+b;
+		}
+		
+};
+int main()
+{
+	First f1;
+	Second s1;
+	f1.inpA();
+	s1.inpB();
+	s1.sum(f1);
+	s1.show();
+}
