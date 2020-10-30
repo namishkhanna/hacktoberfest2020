@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int i, n, max, final_max, arr[1000];
-    cout << "Enter total numbers: ";
+    cout << "Enter the numbers: ";
     cin >> n;
     for(i=0;i<n;i++)
     {
@@ -22,6 +22,6 @@ int main()
             max = max;
         }
     }
-    cout<<max;
+    cout<<"The largest number is="<<max;
     return 0;
 }
