@@ -24,7 +24,6 @@ module.exports = function matrixMultiplier(matrixA, matrixB) {
         resultantMatrix[rowIndex] = new Array(matrixB[0].length)
         for (var colIndex = 0; colIndex < matrixB[0].length; ++colIndex) {
             resultantMatrix[rowIndex][colIndex] = 0
-            console.log('set a 0')
             for (var entryIndex = 0; entryIndex < matrixA[0].length; ++entryIndex) {
                 resultantMatrix[rowIndex][colIndex] += matrixA[rowIndex][entryIndex] * matrixB[entryIndex][colIndex];
             }
