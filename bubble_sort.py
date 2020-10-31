@@ -1,21 +1,11 @@
+def bubbleSort(alist):
+    for passnum in range(len(alist)-1,0,-1):
+        for i in range(passnum):
+            if alist[i]>alist[i+1]:
+                temp = alist[i]
+                alist[i] = alist[i+1]
+                alist[i+1] = temp
 
-#Python Implementation of bubble Sort Algorithm
-
-#ascending Order Sort
-def bubble(data):
-	n=len(data)
-	for i in range(n-1):
-		for j in range(i+1,n):
-			if data[i]>data[j]:
-				temp=data[j]
-				data[j]=data[i]
-				data[i]=temp
-
-temperature = input('Enter the list of numbers: ').split()
-temperature = [int(x) for x in alist]
-print("Data Before Sort")
-print(temperature)
-
-bubble(temperature)
-print("Data After Sort")
-print(temperature)
+alist = [54,26,93,17,77,31,44,55,20]
+bubbleSort(alist)
+print(alist)
