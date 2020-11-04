@@ -1,0 +1,12 @@
+fun main(args: Array<String>) {
+    val num = 6
+    val factorial = fact(num)
+    println("Factorial of $num = $factorial")
+}
+
+fun fact(num: Int): Long {
+    if (num >= 1)
+        return num * fact(num - 1)
+    else
+        return 1
+}
