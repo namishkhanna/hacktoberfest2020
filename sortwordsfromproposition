@@ -1,0 +1,36 @@
+/// NICOI ALEXANDRU - tr0yyy
+/// cpp implementation sorting words from a proposition
+
+#include <iostream>
+#include <cstring>
+#include <fstream>
+
+using namespace std;
+
+int main()
+{
+    char s[256];
+    char v[101][101];
+    int n = 0;
+    cin.getline(s,256);
+    char *p = strtok(s , " ");
+    while(p)
+    {
+        n++;
+        strcpy(v[n],p);
+        p = strtok(NULL , " ");
+    }
+    for(int i = 1 ; i < n ; i++)
+        for(int j = i + 1 ; j <= n ; j++)
+    {
+        if(strcmp(v[i],v[j]) > 0)
+        {
+            char aux[256];
+            strcpy(aux,v[i]);
+            strcpy(v[i],v[j]);
+            strcpy(v[j],aux);
+        }
+    }
+    for(int i = 1 ; i <= n ; i++)
+        cout << v[i] << endl;
+}
