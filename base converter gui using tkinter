@@ -1,0 +1,310 @@
+from tkinter import*
+
+root = Tk()
+root.geometry("500x658+180+25")
+root.title("Python Tkinter Gui")
+root.resizable(0,0)
+root.config(bg="#b90e0a")     
+root.config(cursor="circle")#trek plus circle
+
+def giv(event):
+    if given_val.get() == "DECIMAL":
+        if convert_val.get() == "OCTAL":
+            def Convert():
+                x1 = int(Entry.get(entry_wid))
+           
+                octal = oct(x1)
+                res_octal.set(octal)
+            
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            octans=Label(root,textvariable=res_octal,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            octans.place(x=75,y=440)
+        if convert_val.get() == "HEXA-DECIMAL":
+            def Convert():
+                x1 = int(Entry.get(entry_wid))
+
+                hexadecimal = hex(x1)
+                res_hexadecimal.set(hexadecimal)
+            
+                
+            
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            hexans=Label(root,textvariable=res_hexadecimal,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            hexans.place(x=75,y=550)
+        if convert_val.get() == "BINARY":
+            def Convert():
+                x1 = int(Entry.get(entry_wid))
+
+                bin_1 = bin(x1)
+                res_binary.set(bin_1)
+                
+            
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            binans=Label(root,textvariable=res_binary,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            binans.place(x=275,y=440)
+
+    
+        if convert_val.get() == "DECIMAL":
+            def Convert():
+                x1 = int(Entry.get(entry_wid))
+           
+                decimal = x1
+                res_decimal.set(decimal)
+            
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            decans=Label(root,textvariable=res_decimal,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            decans.place(x=275,y=550)
+#--------------------------------------------------------------#   : decimal
+
+    if given_val.get() == "BINARY":
+        if convert_val.get() == "OCTAL":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+            
+
+                oc_1 = int(x1, 2)
+                octal = oct(oc_1)
+                res_octal_b.set(octal)
+
+
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            octans=Label(root,textvariable=res_octal_b,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            octans.place(x=75,y=440)
+
+
+        if convert_val.get() == "DECIMAL":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+            
+
+                decimal = int(x1, 2)
+                res_decimal_b.set(decimal)
+
+
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            decans=Label(root,textvariable=res_decimal_b,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            decans.place(x=275,y=550)
+            
+
+        if convert_val.get() == "HEXA-DECIMAL":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+            
+
+                su1 = int(x1, 2)
+                hexadecimal = hex(su1)
+                res_hexadecimal_b.set(hexadecimal)
+
+
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            hexans=Label(root,textvariable=res_hexadecimal_b,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            hexans.place(x=75,y=550)
+
+        if convert_val.get() == "BINARY":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+                
+                binary = x1
+                res_binary_b.set(binary)
+
+
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            binans=Label(root,textvariable=res_binary_b,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            binans.place(x=275,y=440)
+
+
+#-------------------------------------------------------------# :binary
+
+    if given_val.get() == "OCTAL":
+        if convert_val.get() == "OCTAL":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+                OC = x1
+                res_octal_o.set(OC)
+
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            octans=Label(root,textvariable=res_octal_o,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            octans.place(x=75,y=440)
+
+        if convert_val.get() == "DECIMAL":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+                decimal = str(int(x1, 8))
+                res_decimal_o.set(decimal)
+                
+
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            decans=Label(root,textvariable=res_decimal_o,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            decans.place(x=275,y=550)
+            
+        if convert_val.get() == "HEXA-DECIMAL":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+                dec1 = str(int(x1, 8))
+                decnm = int(dec1)
+                hexadecimal = hex(decnm)
+                res_hexadecimal_o.set(hexadecimal)
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            hexans=Label(root,textvariable=res_hexadecimal_o,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            hexans.place(x=75,y=550)
+
+        if convert_val.get() == "BINARY":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+                dec = str(int(x1, 8))
+                bina = int(dec)
+                binary = bin(bina)
+                res_binary_o.set(binary)
+                
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            binans=Label(root,textvariable=res_binary_o,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            binans.place(x=275,y=440)
+            
+    if given_val.get() == "HEXA-DECIMAL":
+        if convert_val.get() == "OCTAL":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+                dec = int(x1, 16)
+                octal = oct(dec)
+                res_octal_h.set(octal)
+
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            octans=Label(root,textvariable=res_octal_h,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            octans.place(x=75,y=440)
+
+        if convert_val.get() == "DECIMAL":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+                X1 = int(x1, 16)
+                decimal = str(X1)
+                res_decimal_h.set(decimal)
+                
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            decans=Label(root,textvariable=res_decimal_h,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            decans.place(x=275,y=550)
+
+        if convert_val.get() == "HEXA-DECIMAL":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+                
+                res_hexadecimal_h.set(x1)
+                
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            hexans=Label(root,textvariable=res_hexadecimal_h,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            hexans.place(x=75,y=550)
+
+        if convert_val.get() == "BINARY":
+            def Convert():
+                x1 = Entry.get(entry_wid)
+                X2 = int(x1,16)
+                binary = (bin(X2))
+                res_binary_h.set(binary)         
+                
+            convert = Button(root,text="Convert",command=Convert,font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+            convert.place(x=165,y=360)
+
+            binans=Label(root,textvariable=res_binary_h,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+            binans.place(x=275,y=440)
+
+f1 = Frame(root)
+f1.pack(side = TOP,pady=20,fill=X)
+
+l1 = Label(f1,text="   BASE CONVERTER   ",bg="light blue",fg="brown",font="garamond 25 bold")
+l1.pack (side = TOP, fill=X,pady =20)
+
+
+given_val = StringVar()
+given_val.set("FROM")
+
+convert_val = StringVar()
+convert_val.set("  TO  ")
+
+
+
+drop = OptionMenu(root, given_val, "BINARY", "OCTAL", "DECIMAL", "HEXA-DECIMAL",command=giv)
+drop.place(x=120,y=230)
+
+drop_other = OptionMenu(root, convert_val, "OCTAL", "BINARY", "HEXA-DECIMAL", "DECIMAL",command=giv)
+drop_other.place(x=300,y=230)
+
+value = IntVar()
+value.set("")
+
+get = value
+res_octal = StringVar()
+res_octal_b = StringVar()
+res_octal_o = StringVar()
+res_octal_h = StringVar()
+res_binary=StringVar()
+res_binary_b  =StringVar()
+res_binary_o = StringVar()
+res_binary_h = StringVar()
+res_hexadecimal=StringVar()
+res_hexadecimal_b = StringVar()
+res_hexadecimal_o = StringVar()
+res_hexadecimal_h = StringVar()
+res_decimal = StringVar()
+res_decimal_b = StringVar()
+res_decimal_o  =StringVar()
+res_decimal_h = StringVar()
+
+
+
+convertr = Button(root,text="Convert",font="comicsans 20 bold",bg="#960018",fg="#b2d2ee",width=10)
+convertr.place(x=165,y=360)
+
+octanswer=Label(root,textvariable=res_octal,bg="black",width=17,height=2,fg="white",font="FireSans 12")
+octanswer.place(x=75,y=440)
+oct_written = Label(root,text="OCTAL",bg="#b90e0a",width=14,height=1,fg="white",justify=CENTER,font="FireSans 17",relief=FLAT)
+oct_written.place(x=65,y=501)
+
+binanswer=Label(root,textvariable=res_binary,bg="black",fg="white",width=17,height=2,font="FireSans 12")
+binanswer.place(x=275,y=440)
+bin_written = Label(root,text="BINARY",bg="#b90e0a",width=14,height=1,fg="white",justify=CENTER,font="FireSans 17",relief=FLAT)
+bin_written.place(x=260,y=501)
+
+hexanswer=Label(root,textvariable=res_hexadecimal,bg="black",fg="white",width=17,height=2,font="FireSans 12")
+hexanswer.place(x=75,y=550)
+hex_written = Label(root,text="HEXA-DECIMAL",bg="#b90e0a",width=16,height=1,fg="white",justify=CENTER,font="FireSans 17",relief=FLAT)
+hex_written.place(x=50,y=610)
+
+decanswer=Label(root,textvariable=res_hexadecimal,bg="black",fg="white",width=17,height=2,font="FireSans 12")
+decanswer.place(x=275,y=550)
+dec_written = Label(root,text="DECIMAL",bg="#b90e0a",width=14,height=1,fg="white",justify=CENTER,font="FireSans 17",relief=FLAT)
+dec_written.place(x=265,y=610)
+
+
+entry_wid = Entry(root,textvar=value, font="lucida 40 bold",justify=CENTER,bg="black",fg="orange")
+entry_wid.pack(fill=X, ipadx=8, pady=10, padx=56,side=TOP)
+
+root.mainloop()
