@@ -1,0 +1,21 @@
+ 
+ exactly3Divisors(int N)
+{
+    //Your code here
+    int x=0,y=0;
+    for(int n=2;n*n<=N;n++){
+        x=0;
+    for(int j=2;j*j<=n;j++){
+        if(n%j==0){
+            x=9;
+        }
+        
+    }
+    if(x==0){
+        y++;
+    }
+
+    }
+   return y;
+
+}
