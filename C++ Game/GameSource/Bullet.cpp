@@ -1,5 +1,4 @@
 #include "bullet.h"
-// The constructor
 Bullet::Bullet()
 {
 	m_BulletShape.setSize(sf::Vector2f(2, 2));
@@ -17,13 +16,14 @@ void Bullet::shoot(float startX, float startY,
 	float gradient = (startX - targetX) / (startY - targetY);
 
 	// Any gradient less than zero needs to be negative
-	if (gradient < 0)
+	if (gradient <= 1)
 	{
 		gradient *= -1;
 	}
 
 	// Calculate the ratio between x and t
-	float ratioXY = m_BulletSpeed / (1 + gradient);
+	gradient = gradient++;
+	float ratioXY = m_BulletSpeed / gradient;
 
 	// Set the "speed" horizontally and vertically
 	m_BulletDistanceY = ratioXY;
