@@ -1,34 +1,47 @@
-public class QuickSort {
+public static void main(String[] args) throws IOException {
 
-    static int partition(int[] arr, int low, it high) {
-        int pivot = arr[high];
-        int i = low - 1;
-        for (int j = low; i < high; j++) {
-            if (arr[j] < pivot) {
-                i++;
+             int quantity = 10000;
+             int[] vector = new int[quantity];
 
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-            }
-        }
-        int temp = arr[i + 1];
-        arr[i + 1] = arr[high];
-        arr[high] = temp;
+             for (int i = 0; i < vector.length; i++) {
+                     vector[i] = (int) (Math.random()*quantity);
+             }
 
-        return i + 1;
+             long startTime = System.currentTimeMillis();
 
-    }
+             quickSort(vector,0,vector.length-1);
 
-    void sort(int[] arr, int low, int high) {
-        if (low < high) {
+             long finalTime = System.currentTimeMillis();
 
-            int p = partition(arr, low, high);
+             System.out.println("Execution in = " + (finalTime - startTime) + " ms");
 
-            sort(arr, low, p - 1);
-            sort(arr, p + 1, high);
-        }
+       }
 
-    }
+       private static void quickSort(int[] vector, int start, int fim) {
+             if (start < fim) {
+                    int pivotPosition = split(vector, start, fim);
+                    quickSort(vector, start, posicaoPivot - 1);
+                    quickSort(vector, posicaoPivot + 1, fim);
+             }
+       }
 
-}
+       private static int split(int[] vector, int start, int fim) {
+             int pivot = vector[start];
+             int i = start + 1, f = fim;
+             while (i <= f) {
+                    if (vector[i] <= pivot)
+                           i++;
+                    else if (pivot < vector[f])
+                           f--;
+                    else {
+                           int change = vector[i];
+                           vector[i] = vector[f];
+                           vector[f] = change;
+                           i++;
+                           f--;
+                    }
+             }
+             vector[start] = vector[f];
+             vector[f] = pivot;
+             return f;
+       }
