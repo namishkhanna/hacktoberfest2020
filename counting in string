@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main() {
+
+  char line[150];
+  int vowels, consonant, space,i;
+  vowels = consonant = space = 0;
+  printf("Enter a line of string: \n");
+  fgets(line, sizeof(line), stdin);
+
+  for ( i = 0; line[i] != '\0'; ++i) {
+
+   
+    if (line[i] == 'a'||line[i] == 'e'||line[i] =='i'||
+        line[i] == 'o'|| line[i] =='u') 
+        {
+            ++vowels;
+        }
+        
+
+    else if ((line[i] >= 'a' && line[i] <= 'z')) {
+      ++consonant;
+    }
+
+
+    else if (line[i] == ' ') {
+      ++space;
+    }
+  }
+int j=space+1;
+  printf("Vowels: %d", vowels);
+  printf("\nConsonants: %d", consonant);
+  printf("\nnumber of characters is:%d ",--i);
+  printf("\nnumber of words are:%d ",j);
+  printf("\nblank spaces: %d", space);
+
+  return 0;
+}
